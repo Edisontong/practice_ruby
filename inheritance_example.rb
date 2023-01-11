@@ -48,6 +48,6 @@ p car
 car.honk_horn
 
 bike = Bike.new(brand: "mountain", weight: "20lbs")
-bike.turn("west")
+bike.turn("north")
 p bike
 bike.ring_bell
