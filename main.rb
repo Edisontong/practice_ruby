@@ -1,5 +1,5 @@
 employee1 = Employee.new({ first_name: "Suzie", last_name: "Pepper", salary: 80000, active: true })
-employee2 = Employee.new({ first_name: "April", last_name: "", salary: 70000, active: true })
+employee2 = Employee.new({ first_name: "April", last_name: "Rhodes", salary: 70000, active: true })
 
 manager = Manager.new(first_name: "Saron", last_name: "Yitbarek", salary: 100000, active: true, employees: [employee1, employee2])
 manager.print_info
