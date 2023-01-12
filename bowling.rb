@@ -38,18 +38,18 @@ def roll
   puts "First roll:"
   roll1 = gets.chomp.to_i
   if roll1 == 10
-    roll2 = 0
+    @score << [roll1]
   else
     puts "Second roll:"
     roll2 = gets.chomp.to_i
+    @score << [roll1, roll2]
   end
-  @score << [roll1, roll2]
 end
 
 def score
   index = 0
   while index < @score.length
-    if @score[index][0]
+    if @score[index][0] == 10
     end
     index += 1
   end
