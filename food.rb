@@ -1,4 +1,5 @@
 require "./product.rb"
+require "./store_module.rb"
 
 class Food < Product
   attr_reader :shelf_life
